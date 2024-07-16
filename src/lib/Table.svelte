@@ -28,6 +28,12 @@
                     <img class="w-4 float-right" src="./trash-can.svg" alt="delete"/>
                 </button>
                 </form>
+                <form method="PUT" action="/profiles?/update">
+                <input type="hidden" name="id" id="id" value={user.id}>
+                <button type="submit">
+                    <img class="w-4 float-right" src="./update_button.svg" alt="update"/>
+                </button>
+                </form>
 			</div>
 		{/each}
 	</div>
